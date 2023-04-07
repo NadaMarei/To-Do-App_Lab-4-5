@@ -42,3 +42,6 @@ The server will respond with a JWT that can be used to access protected endpoint
 `/users/:id` - A single user (admin only) <br>
 
 To grant admin privileges to a user, send a `PUT` request to `/users/:id` with a JSON payload containing `isAdmin: true`.
+
+## Author
+<a href="https://github.com/NadaMarei">- Nada Marei</a> 
