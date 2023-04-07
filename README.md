@@ -4,7 +4,7 @@ This is a simple to-do list application built using Node.js, Express, and MongoD
 ## Installation
 1- Clone the repository.<br>
 2- Install the dependencies.<br>
-3- Create a `.env` file in the project root directory and add the MongoDB connection string and port.<br>
+3- Create a `.env` file in the project root directory and add the MongoDB connection string and port and JWT secret.<br>
 4- Start the server.<br>
 
 
