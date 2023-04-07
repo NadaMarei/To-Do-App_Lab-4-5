@@ -1,5 +1,5 @@
 # To-Do-App
-This is a simple to-do list application built using Node.js, Express, and MongoDB.
+This is a simple to-do list application built using Node.js, Express, and MongoDB. With authentcation, authorization and .env file to store sensitive data.
 
 ## Installation
 1- Clone the repository.<br>
