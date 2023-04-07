@@ -43,8 +43,10 @@ The server will respond with a JWT that can be used to access protected endpoint
 
 To grant admin privileges to a user, send a `PUT` request to `/users/:id` with a JSON payload containing `isAdmin: true`.
 
-## Creating relationships and improving the files
-`.env` file used to store sensitive data, along with mongoose to Json function to prevent the return of sensitive data. Authorization function added to get the to-dos for the logged user only.
+## Establishing connections and optimizing the files
+
+`.env` files are used to hold sensitive data, and the mongoose to Json function is used to stop sensitive data from being returned.
+Also to only retrieve the to-dos for the logged-in user, authorization was implemented. 
 
 ## Author
 <a href="https://github.com/NadaMarei">- Nada Marei</a> 
